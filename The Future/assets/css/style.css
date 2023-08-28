@@ -1,0 +1,33 @@
+body::before{
+    content: '';
+    display: block;
+    height: 50px;
+}
+
+.navbar{
+    border-bottom: 2px solid #CE1212;
+}
+
+.btn{
+    background-color: #CE1212;
+    color: white;
+    border-color: #CE1212;
+}
+
+.btn:hover{
+    background-color: #810000;
+    border-color: #810000;
+    color: white;
+}
+
+.container h1,p{
+    text-align: center;
+}
+
+#Services .container img{
+    height: 100px;
+}
+
+#Projects .container img{
+    height: 100px;
+}
